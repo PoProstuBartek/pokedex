@@ -1,9 +1,9 @@
 .Pokecard {
   width: 20%;
-  height: 250px;
   background-color: silver;
   border-radius: 10px;
   box-shadow: 7px 12px 12px -5px rgba(0, 0, 0, 0.56);
+  list-style: none;
 }
 
 .PokecardName {
@@ -13,10 +13,22 @@
 }
 
 .PokecardImage {
-  width: 50%;
-  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkolivegreen;
+  margin-bottom: 1rem;
 }
 
 .PokecardStats {
   margin: 5px;
+}
+
+.Pokecard img {
+  transition: all ease 500ms;
+}
+
+.Pokecard img:hover {
+  transform: scale(1.25);
+  opacity: 0.8;
 }

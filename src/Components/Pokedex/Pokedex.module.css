@@ -1,5 +1,17 @@
+.Pokedex {
+  text-align: center;
+}
+
 .PokedexList {
   display: flex;
   gap: 80px;
   flex-wrap: wrap;
+}
+
+.PokedexWinner {
+  color: green;
+}
+
+.PokedexLoser {
+  color: brown;
 }

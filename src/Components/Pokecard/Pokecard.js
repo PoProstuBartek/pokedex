@@ -8,12 +8,14 @@ const Pokecard = props => {
   }
 
   return ( 
-  <div className={styles.Pokecard}>
-    <h2 className={styles.PokecardnName}>{props.name}</h2>
-    <img className={styles.PokecardImage} src={`${POKE_API}${idValidate(props.id)}.png`} alt={props.name}/>
+  <li className={styles.Pokecard}>
+    <h2 className={styles.PokecardName}>{props.name}</h2>
+    <div className={styles.PokecardImage}>
+      <img src={`${POKE_API}${idValidate(props.id)}.png`} alt={props.name}/>
+    </div>
     <p className={styles.PokecardStats}>Type: {props.type}</p>
     <p className={styles.PokecardStats}>Exp: {props.exp}</p>
-  </div>
+  </li>
   )
 }
 
