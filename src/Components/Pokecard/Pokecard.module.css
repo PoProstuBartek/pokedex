@@ -1,0 +1,22 @@
+.Pokecard {
+  width: 20%;
+  height: 250px;
+  background-color: silver;
+  border-radius: 10px;
+  box-shadow: 7px 12px 12px -5px rgba(0, 0, 0, 0.56);
+}
+
+.PokecardName {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
+.PokecardImage {
+  width: 50%;
+  height: 50%;
+}
+
+.PokecardStats {
+  margin: 5px;
+}
